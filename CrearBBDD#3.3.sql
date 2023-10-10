@@ -47,10 +47,6 @@ INSERT INTO PARTIDAS VALUES ('3',('luis44','sistemasoperativos'),'356','500','7'
 
 INSERT INTO CAMPEONATO (1,3,233)
 
-/*Cuantas personas menores de 18 años tienen más de 40 puntos */
-
-SELECT JUGADOR.NOMBRE FROM (JUGADOR, PARTIDAS) WHERE JUGADOR.EDAD < '18' AND PARTIDAS.PUNTOS > '40'
-
 
 
 
